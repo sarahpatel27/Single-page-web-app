@@ -1,0 +1,123 @@
+*{
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.container{
+  
+  grid-template-columns: 1fr 5fr 2fr;
+  grid-template-rows: 5fr 20fr 5fr;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: white ;
+    color: #3b5998;
+    padding: 20px;
+  }
+
+  header.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+  .nav {
+    background-color: #e9ebee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;  
+  } 
+  
+  .nav li {
+    margin-right: 10px;
+
+  }
+  
+  .nav a {
+    color: #385898;
+    text-decoration: none;
+  }
+
+  .nav img{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  
+
+  .column{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    margin: 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction:row;
+    height: 500px;
+    margin: 50px;
+    justify-content: space-between;
+  }
+  
+  section {
+    background-color: #5BA4DF;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 50%;
+    border-radius:20px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+  section form input {
+    padding: 10px 32px;
+    border-radius: 10px;
+  
+  }
+
+  /* section form button{
+    background-color: #fff;
+    border: none;
+    color: #2b8da1;
+    font-size: 20px;
+    border-radius: 7px none;
+    padding: 16px 32px;k
+    text-decoration: none;
+
+  } */
+  button{
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* padding: 12px 70px; */
+    border: 1px solid rgb(245, 238, 238);
+    padding: 8px 19px;
+  }
+  
+
+  button:hover{
+    background-color: green;
+    opacity: 90%;
+  }
+
+  
+  h1, h2 {
+    margin: 0;
+  }
